@@ -28,8 +28,7 @@ int main()
     {   
         printf(" %d",dizi[t]);
     }
-    getch(); //terminalin hemen kapanmamasi icin
-}
+    getch(); 
 
 void sirala(int dizi[],int basindex,int sonindex)
 {

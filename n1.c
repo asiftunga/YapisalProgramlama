@@ -3,8 +3,7 @@
 #include<conio.h>
 #include <time.h>
 
-//Asif Tunga Mubarek
-//190401063
+
 
 int sayi = 10;
 struct node
@@ -37,7 +36,6 @@ struct node* ekleme(struct node* node, int veri)
 
 void Listeleme(struct node *kok, int bosluk) 
 { 
-    //HOCAM LISTEYI YATAY OLARAK BASTIRDIM
     if (kok == NULL) return;
     bosluk += sayi; 
     Listeleme(kok->sagnode, bosluk); 
